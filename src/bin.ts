@@ -3,7 +3,7 @@
 import path from 'path'
 const { Logger, runner } = require('hygen')
 
-const defaultTemplates = path.join(__dirname, '../src/_templates')
+const defaultTemplates = path.join(__dirname, '../../src/_templates')
 runner(process.argv.slice(2), {
     templates: defaultTemplates,
     cwd: process.cwd(),

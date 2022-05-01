@@ -10,7 +10,7 @@
     "prepublishOnly": "npm run build"
   },
   "bin": {
-    "generator": "./lib/bin.js"
+    "generator": "./lib/cjs/bin.js"
   },
   "repository": {
     "type": "git",
