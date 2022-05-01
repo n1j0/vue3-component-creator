@@ -9,6 +9,9 @@
     "build": "rm -rf lib && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "prepublishOnly": "npm run build"
   },
+  "bin": {
+    "generator": "./lib/cjs/bin.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jtpfa/vue3-component-creator.git"
