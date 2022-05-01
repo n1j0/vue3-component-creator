@@ -1,0 +1,21 @@
+{
+  "name": "vue3-component-creator",
+  "version": "1.0.0",
+  "description": "Get a random male office name",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/cjs/index.d.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtpfa/vue3-component-creator.git"
+  },
+  "author": "Jonas Pfannkuche <jpfannkuche.mmt-m2021@fh-salzburg.ac.at>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
