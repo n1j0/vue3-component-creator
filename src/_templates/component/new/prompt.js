@@ -4,4 +4,9 @@ module.exports = [
         name: 'name',
         message: "Component name:"
     },
+    {
+        type: 'input',
+        name: 'folder',
+        message: "Folder:"
+    },
 ]

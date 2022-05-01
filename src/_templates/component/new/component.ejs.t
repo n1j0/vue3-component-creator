@@ -1,5 +1,5 @@
 ---
-to: "./<%= h.changeCase.pascal(name) %>.vue"
+to: "<%= folder %>/<%= h.changeCase.pascal(name) %>.vue"
 ---
 <%
     const namePascalCase = h.changeCase.pascal(name)
