@@ -12,8 +12,7 @@
 
 ## Using the Tool
 
-- Link the package to one of your Vue3/Nuxt projects [npm-link](https://docs.npmjs.com/cli/v6/commands/npm-link)
-- Use `generator component new` to create a new component
+- Run `node ./lib/cjs/bin.js component new`
 
 ## Testing
 
