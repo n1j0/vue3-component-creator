@@ -14,7 +14,7 @@
     "prepublishOnly": "npm run build"
   },
   "bin": {
-    "generator": "./lib/cjs/bin.js"
+    "vue3-cc": "./lib/cjs/bin.js"
   },
   "repository": {
     "type": "git",
