@@ -1,6 +1,6 @@
 {
   "name": "vue3-component-creator",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "CLI-Tool to generate a Vue3 component with typescript and a jest unit test file.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
