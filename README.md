@@ -20,4 +20,4 @@ Then follow the instructions on the CLI. See the following example:
 ![demo](./demo.gif)
 
 ## Contribute
-If you want to fix/improve the package you're welcome to create a PR. Please note that this project with [Contributing Guidelines](https://github.com/jtpfa/vue3-component-creator/blob/main/CONTRIBUTING.md).
+If you want to fix/improve the package you're welcome to create a PR. Please note that this project has [Contributing Guidelines](https://github.com/jtpfa/vue3-component-creator/blob/main/CONTRIBUTING.md).
